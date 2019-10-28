@@ -1,3 +1,9 @@
+'''
+
+Realice un programa que lea por teclado un texto, e indique la cantidad de vocales y consonantes.
+
+'''
+
 texto = input('Ingrese un texto: ')
 suma = 0
 suma2 = 0

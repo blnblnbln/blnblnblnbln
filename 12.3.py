@@ -1,3 +1,10 @@
+'''
+
+Realice un programa que lea por teclado un número entero positivo N. Debe asegurarse de que el número ingresado sea positivo. Luego:
+Muestre los primeros N números primos.
+
+'''
+
 n = -1
 while n < 0:
     n = int(input('Ingrese un valor: '))
