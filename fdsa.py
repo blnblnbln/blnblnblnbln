@@ -1,10 +1,10 @@
-n = 1001
-for i in range(1,n):
+def funcion(A, B):
     suma = 0
-    for a in range (1,i):
-        if i%a == 0:
-            suma += a
-    if suma == i:
-        print(i)
-    #else:
-    #    print('El valor no es un número perfecto')
+    for i in range (A, B+1):
+        suma += i
+    return suma
+
+A = int(input('Ingrese valor de A: '))
+B = int(input('Ingrese valor de B: '))
+resultado = funcion (A, B)
+print(resultado)
