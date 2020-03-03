@@ -10,9 +10,21 @@ lista = [ ]
 for i in range (N):
     valor = int(input('Ingrese un valor: '))
     lista.append(valor)
+
+def calcular_suma(lista):
+    suma = 0
+    for indice in range (N):
+        valor = lista [indice]
+        suma += valor
+    return suma
+
+sumatoria = calcular_suma(lista)
+
+def calcular_promedio(lista):
+    suma = calcular_suma(lista)
+    promedio = suma / len(lista)
+    return promedio
     
-suma = 0
-for indice in range (N):
-    valor = lista [indice]
-    suma += valor
-print(suma)
+promedio = calcular_promedio(lista)
+print (sumatoria)
+print(promedio)
