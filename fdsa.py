@@ -1,10 +1,10 @@
-def funcion(A, B):
-    suma = 0
-    for i in range (A, B+1):
-        suma += i
-    return suma
+from random import randint
 
-A = int(input('Ingrese valor de A: '))
-B = int(input('Ingrese valor de B: '))
-resultado = funcion (A, B)
-print(resultado)
+lista = [randint(1,24) for i in range (8)]
+print(lista)
+
+lista.sort()
+print(lista)
+
+lista.sort(reverse = True)
+print(lista)
